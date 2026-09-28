@@ -7,7 +7,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    background-image: url(assets/bg/bg4.png) ;
+    /*background-image: url(assets/bg/bg4.png) ;*/
     background-position: center ;
     background-size: cover;
     overflow: hidden;
@@ -67,10 +67,11 @@ footer {
 }
 
 img {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
     background-repeat: no-repeat;
     background-position: 50%;
-    border-radius: 50%;
-    border: gray;
+    /*border-radius: 50%;
+    border: gray;*/
     transform: scale(1);
     transition: ease-in 0.1s;
 }
